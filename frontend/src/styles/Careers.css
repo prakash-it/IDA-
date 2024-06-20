@@ -1,0 +1,38 @@
+.check {
+    text-align: center; 
+    margin-top: 50px;
+  }
+
+  .pops{
+    padding-top: 20px;
+    padding-bottom: 130px;
+  }
+
+.come{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coord {
+  background-color: #8e9799;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 10px 5px 10px #60caeb;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out; 
+
+}
+
+.coord:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.coord p 
+{
+  padding-top: 20px;
+}

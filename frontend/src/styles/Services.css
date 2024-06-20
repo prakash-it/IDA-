@@ -1,0 +1,146 @@
+.services {
+    padding-top: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* General Styles */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .pt-3 {
+    padding-top: 1rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .header-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .our-services {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  /* Row Styles */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .p-lg-3 {
+    padding: 1rem;
+  }
+  
+  .p-md-3 {
+    padding: 1rem;
+  }
+  
+  .p-0 {
+    padding: 0;
+  }
+  
+  /* Column Styles */
+  .col-lg-4, .col-md-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .p-md-2 {
+    padding: 0.5rem;
+  }
+  
+  .hidden-b, .hidden-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hidden-b a, .hidden-1 a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .hidden-b img, .hidden-1 img {
+    margin-bottom: 0.5rem;
+  }
+  
+  .hidden-b p, .hidden-1 p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+
+  
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: unset;
+}
+
+.roww {
+    display: flex;
+    padding: 20px;
+    
+  }
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin: 5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.facilities-col .img-container {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.facilities-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.facilities-col p {
+    padding: 0;
+}
+
+.facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
