@@ -9,6 +9,7 @@ import Services from './component/Services';
 import Careers from './component/Careers';
 import Job from './component/Job';
 import Contact from './component/Contact';
+import Clients from './component/Clients';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
      <Route path='/' element={<Home/>}/>
      <Route path='/about' element={<About/>}/>
      <Route path='/services' element={<Services/>}/>
-     {/* <Route path='/' element={<Careers/>}/> */}
+     <Route path='/clients' element={<Clients/>}/>
      <Route path='/careers' element={<Careers />}/>
         <Route path='/Job-application' element={<Job />} />
      <Route path='/contact' element={<Contact/>}/>
