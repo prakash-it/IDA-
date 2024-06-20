@@ -1,3 +1,7 @@
+.ser{
+text-align: center;
+
+}
 .services {
     padding-top: 30px;
     font-weight: 500;
@@ -8,10 +12,8 @@
 /* General Styles */
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 1rem;
+    margin: 0 auto;
   }
   
   .pt-3 {
@@ -26,79 +28,59 @@
     text-align: center;
   }
   
-  .header-text {
+  .services {
     font-size: 2rem;
     font-weight: bold;
-  }
-  
-  .our-services {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 2rem;
   }
   
   /* Row Styles */
   .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  
-  .p-lg-3 {
-    padding: 1rem;
-  }
-  
-  .p-md-3 {
-    padding: 1rem;
-  }
-  
-  .p-0 {
-    padding: 0;
+    justify-content: space-between;
+    margin: -1rem 0;
   }
   
   /* Column Styles */
   .col-lg-4, .col-md-12 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  
-  .col-lg-4 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-  
-  .col-md-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  
-  .p-md-2 {
-    padding: 0.5rem;
-  }
-  
-  .hidden-b, .hidden-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
+    max-width: 31%;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 1rem;
   }
   
-  .hidden-b a, .hidden-1 a {
+  .col-lg-4:hover, .col-md-12:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .col-lg-4 a, .col-md-12 a {
     text-decoration: none;
     color: inherit;
   }
   
-  .hidden-b img, .hidden-1 img {
+  .col-lg-4 img, .col-md-12 img {
     margin-bottom: 0.5rem;
+    border-radius: 50%;
+    transition: transform 0.3s;
   }
   
-  .hidden-b p, .hidden-1 p {
+  .col-lg-4:hover img, .col-md-12:hover img {
+    transform: scale(1.1);
+  }
+  
+  .col-lg-4 p, .col-md-12 p {
     margin-top: 0.5rem;
     font-size: 1rem;
   }
 
+  
   
 .facilities {
     width: 80%;
